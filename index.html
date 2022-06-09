@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <img src="c.png" alt="for loop" width="700px" height="200px"><br>
+        <p>C is a procedural programming language. It was initially developed by
+            Dennis Ritchie in the year 1972. It was mainly developed as a system
+            programming language to write an operating system. The main features 
+            of the C language include low-level memory access, a simple set of keywords, 
+            and a clean style, these features make C language suitable for system 
+            programmings like an operating system or compiler development.<br>
+            Many later languages have borrowed syntax/features directly or indirectly
+            from the C language. Like syntax of Java, PHP, JavaScript and many other 
+            languages are mainly based on the C language. C++ is nearly a superset of 
+            C language.<br><br>
+        </p>
+        <div id="datatype">
+            <h2>Data Type</h2>
+            <p>In C programming, data types are declarations for variables. This determines the type and size of data
+                associated with variables.
+            </p>
+            <p>Here's a table containing commonly used types in c programming for quick access.</p>
+            <div >
+                <table id="table">
+                    <tr>
+                        <th>Type</th>
+                        <th>Size(bytes)</th>
+                        <th>Format Specifier</th>
+                    </tr>
+                    <tr>
+                        <td>int</td>
+                        <td>at least 2, usually 4</td>
+                        <td>%d, %i</td>
+                    </tr>
+                    <tr>
+                        <td>char</td>
+                        <td>1</td>
+                        <td>%c</td>
+                    </tr>
+                    <tr>
+                        <td>float</td>
+                        <td>4</td>
+                        <td>%f</td>
+                    </tr>
+                    <tr>
+                        <td>double</td>
+                        <td>8</td>
+                        <td>%lf</td>
+                    </tr>
+                    <tr>
+                        <td>long double</td>
+                        <td>16</td>
+                        <td>%Lf</td>
+                    </tr>
+                </table>
+                <p><br>Variable Declaration:<br><img src="datatype.png" alt="for loop" width="600px"><br></p>
+            </div>
+        </div>
+        <div id="condition">
+            <h2>Condition Operator</h2>
+            <p>Conditonal statements in C programming are used to make decisions based 
+                on the conditions. Conditional statements execute sequentially when
+                there is no condition around the statements. If you put some condition
+                for a block of statements, the execution flow may change based on the
+                result evaluated by the condition.
+            </p>
+            <p>In C programming conditional statements are possible with the help of the 
+                following two construct:<br><br>1. if statement.<br><br><img src="if.png" alt="for loop" width="600px"><br><br>
+                2. if-else if satement.<br><br><img src="ifelse.png" alt="for loop" width="600px">
+            </p>
+        </div>
+        <div id="loop">
+            <h2>Loop</h2>
+            <p>In programming, a loop is used to repeat a block of code 
+                until the specified condition is met.<br><br>C programming  has
+                three types of loops:<br>1. for loop<br><img src="forLoop.png" alt="for loop" width="600px"><br>2. while loop
+                <br><img src="whileLoop.png" alt="for loop" width="600px"><br>
+                3. do...while loop<br><img src="doWhile.png" alt="for loop" width="600px"><br>
+                
+            </p>
+        </div>
+        <div id="function">
+            <h2>Function</h2>
+            <p>A function is a group of statements that together perform a task. Every C program has at least one function, 
+                which is main(), and all the most trivial programs can define additional functions.
+                You can divide up your code into separate functions. How you divide up your code among 
+                different functions is up to you, but logically the division is such that each function performs a specific task.
+                A function declaration tells the compiler about a function's name, return type, and parameters. 
+                A function definition provides the actual body of the function.
+                The C standard library provides numerous built-in functions that your program can call. 
+                For example, strcat() to concatenate two strings, memcpy() to copy one memory location to 
+                another location, and many more functions.</p>
+        </div>
+    </div>
+</body>
+</html>
